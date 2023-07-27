@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+        <input type="text" placeholder="Type something here">
+        <br/>
+        <input type="text" placeholder="Type password">  <!-- Here we can see the password due to type text-->
+        <br/>
+        <input type="password" placeholder="password">   <!--Here we cant see the password due to type password-->
+        <br/>
+
+        Select your Class:
+        <br/>
+        <input type="radio" value="Class 11"name="class">Class 11th
+        <br/>
+        <input type="radio" value="Class 12"name="class">class 12th
+        <br/>
+
+        <!--Now if we apply label to it then if we click text then also it got selected-->
+    <label for ="101">
+        <input type="radio" value="Class 11"name="class" id ="101" >Class 11th
+    </label>
+    <br/>
+
+    <label for ="102">
+        <input type="radio" value="Class 12"name="class" id = "102">class 12th
+    </label>
+
+    <!-- Here we are using the Checkbox : With the help of checkbox we can select multiple options.-->
+<br/>
+Select Your Subejct:
+<br/>
+    <label for ="math">
+        <input type="Checkbox"value ="math" name = "subject" id = "101">Math
+    </label>
+    <br/>
+    <label for ="Physics">
+        <input type="Checkbox"value ="Physics" name = "subject" id = "102">Physics
+    </label>
+ <br/>
+    <label for ="Chemistry">
+        <input type="Checkbox"value ="Chemistry" name = "subject" id = "103">Chemistry
+    </label>
+
+<br/>
+    <!-- HEre we are going to use to text Area-->
+
+    <textarea name="feedback" id ="101" placeholder="Please give feedback"></textarea>
+
+
+    <!--Here we are using the Sect tag : Which help us to make dragdown like list from which we can select-->
+<br/>
+Select Your City:
+<br/>
+    <select city ="City">
+        <option value = "Delhi">Delhi</option>
+        <option value = "Bangloure">Bangloure</option>
+        <option value = "Noida">Noida</option>
+        <option value = "Bombay">Bombay</option>
+        
+    </select>
+
+    <input type="submit"value = "Submit">
+    
+
+    </form>
+   
+
+
+    <iframe width="100" height="100" src="https://www.youtube.com/embed/XGa4onZP66Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
